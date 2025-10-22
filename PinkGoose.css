@@ -139,8 +139,9 @@ nav {
 
 .project-box {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 1140px;
     height: 797px;
     margin-top: 65px;
@@ -156,6 +157,7 @@ nav {
     font-family: Lato;
     font-weight: bold;
     font-size: 50px;
+    margin-right: 300px;
 }
 
 .dao-box-1 {
@@ -163,6 +165,7 @@ nav {
     justify-content: space-between;
     width: 889px;
     height: 56px;
+    margin-top: 40px;
 }
 
 .dao-box-2 {
@@ -170,19 +173,21 @@ nav {
     justify-content: space-between;
     width: 510px;
     height: 56px;
+    
+    margin-top: 24px;
 }
 
 .dao-block-shape {
     display: flex;
     width: 100%;
     height: 56px;
-    background-color: #2a3744;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: #2a3744;
     border-radius: 30px;
+    font-family: Lato;
     font-size: 20px;
     font-weight: 500;
-    font-family: Lato;
 }
 
 .dao-block-size-1 {
@@ -228,17 +233,22 @@ nav {
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    font-size: 20px;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 18px;
     font-weight: 600;
     font-family: Lato;
-    margin-top: -22px;
+    margin-top: -15px;
 }
 
 .game-box-image {
     display: flex;
-    width: 1140px;
+    justify-content: center;
+    image-resolution: 1140px;
     height: 493px;
     align-self: flex-end;
+    margin-top: 44px;
 }
 
 /* module-3*/
@@ -262,6 +272,7 @@ nav {
     font-weight: 600;
     font-family: Lato;
     padding-bottom: 44px;
+    margin-left: 40px;
 }
 
 .text-box-2 {
@@ -497,7 +508,6 @@ input[type="email"]::placeholder {
     flex-direction: column;
     width: 1141px;
     height: 494px;
-    margin-top: 139px;
 }
 
 .module-7-text-box {
@@ -605,7 +615,6 @@ input[type="email"]::placeholder {
     flex-direction: column;
     width: 1141px;
     height: 494px;
-    margin-top: 139px;
 }
 
 .module-8-text-box {
@@ -727,6 +736,7 @@ input[type="email"]::placeholder {
     height: 306px;
     margin-top: 257px;
     font-family: Lato;
+    margin: -1px;
 
 }
 
@@ -849,6 +859,41 @@ footer {
     width: 284px;
     height: 56;
     margin-left: 120px;
+}
+
+/* Stars*/
+
+.star-1{
+margin-right: 150px;
+}
+
+.star-2{
+margin-bottom: 100px;
+}
+
+.star-3{
+margin-right: 200px;
+margin-bottom: 100px;
+}
+
+.star-4{
+margin-left: 75px;
+margin-right: 160px;
+margin-bottom: 75px;
+}
+.star-5{
+margin-top: 140px;
+margin-right: 650px;
+}
+
+.star-6{
+margin-top: 140px;
+margin-right: 1300px;
+}
+
+.star-7{
+margin-top: 60px;
+margin-bottom: 80px;
 }
 
 /* website colours*/
