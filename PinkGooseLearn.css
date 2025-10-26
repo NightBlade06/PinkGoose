@@ -1,0 +1,212 @@
+/* module 2*/
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 797px;
+    padding-top: 200px;
+}
+
+.project-box-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 80px;
+    color: white;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 300px;
+}
+
+.dao-box-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 889px;
+    height: 56px;
+    margin-top: 40px;
+}
+
+.dao-box-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    height: 56px;
+    
+    margin-top: 24px;
+}
+
+.dao-block-shape {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a3744;
+    border-radius: 30px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dao-block-size-1 {
+    display: flex;
+    width: 224px;
+}
+
+.dao-block-size-2 {
+    display: flex;
+    width: 184px;
+}
+
+.dao-block-size-3 {
+    display: flex;
+    width: 181px;
+}
+
+.dao-block-size-4 {
+    display: flex;
+    width: 228px;
+}
+
+.dao-block-size-5 {
+    display: flex;
+    width: 179px;
+}
+
+.dao-block-size-6 {
+    display: flex;
+    width: 153px;
+}
+
+.dao-block-size-7 {
+    display: flex;
+    width: 130px;
+}
+
+.dao-project {
+    display: flex;
+    width: 404px;
+    height: 44px;
+    background-color: #EEEEEE;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Lato;
+    margin-top: -30px;
+}
+
+.game-box-image {
+    display: flex;
+    justify-content: center;
+    image-resolution: 1140px;
+    height: 493px;
+    align-self: flex-end;
+    margin-top: 44px;
+}
+
+/* module-3*/
+
+.text-module {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1140px;
+    height: 692px;
+    margin-top: 200px;
+}
+
+.text-box-1 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: Lato;
+    padding-bottom: 44px;
+    margin-left: 95px;
+}
+
+.text-box-2 {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: Lato;
+    padding-bottom: 20px;
+}
+
+/* module-4 */
+
+.crypto-module {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+    height: 340px;
+    margin-top: 200px;
+    padding-bottom: 200px;
+}
+
+.crypto-text-module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 80px;
+    font-family: Lato;
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.crypto-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1140px;
+    height: 160px;
+    margin-top: 44px;
+}
+
+.crypto-icon-box {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    background-color: #121E28;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border-color: #3e4c57;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.crypto-text-box {
+    display: flex;
+    width: 1140px;
+    height: 40px;
+}
+
+.crypto-icon-text-box {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+}

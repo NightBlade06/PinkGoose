@@ -1,0 +1,232 @@
+/* module 9 (contact idea)*/
+
+.module-9-box {
+    flex-direction: column;
+    width: 1140px;
+    height: 306px;
+    margin-top: 257px;
+    font-family: Lato;
+    margin: -1px;
+    padding-top: 120px;
+}
+
+.module-9-text-box-1 {
+    display: flex;
+    width: 1140px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.module-9-text-box-2 {
+    display: flex;
+    width: 1140px;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #5A6C7E;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 84px;
+    margin-top: 52px;
+}
+
+.contact-sm-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 84px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 10px;
+    font-family: Montserrat;
+}
+
+.sm-img {
+    display: flex;
+    width: 52px;
+    height: 52px;
+    margin: 16px;
+    margin-left: 20px;
+}
+
+.contact-sm-text-box {
+    display: flex;
+}
+
+.sm-h {
+    width: auto;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.sm-p {
+    width: auto;
+    height: 20px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+/* module 6 */
+
+.module-6-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 942px;
+    height: 1096px;
+    margin-top: 206px;
+    background-color: #14222e;
+    border-radius: 20px;
+    border-color: #3e4c57;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 360px;
+    margin-top: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.module-6-text-box-1 {
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 90px;
+}
+
+.form-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 942px;
+    height: 75px;
+    margin-left: 180px;
+}
+
+.list-style {
+    list-style: none;
+    margin-top: 510px;
+}
+
+.email-box{
+    display: flex;
+    width: 506px;
+    height: 68px;
+    background-color: #121E28;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #3e4c57;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #3e4c57;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input[type="email"]::placeholder {
+    color: #3e4c57;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #3e4c57;
+}
+
+input[type="text"]::placeholder {
+    color: #3e4c57;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #3e4c57;
+}
+
+.message-box {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: #121E28;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #3e4c57;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #3e4c57;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+    resize: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+textarea[id="comment"]::placeholder {
+    color: #3e4c57;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #3e4c57;
+}
+
+select {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #3e4c57;
+    border-radius: 10px;
+    background-color: #121E28;
+    color: #3e4c57;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    appearance: none;
+    border-color: #3e4c57;
+    border-style: solid;
+    margin-top: 30px;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #3e4c57;
+}
+
+.submit-box {
+    display: flex;
+    width: 175px;
+    height: 68px;
+    background-color: #CEAAFF;
+    border-radius: 16px;
+    margin-left: 24px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #CEAAFF;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 1550px;
+    margin-right: 20px;
+}

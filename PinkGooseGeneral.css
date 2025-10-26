@@ -1,0 +1,248 @@
+/* Main body content*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+
+/* Header, logo and nav content*/
+
+header {
+    background-color: #13181d;
+    width: auto;
+    height: 106px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Montserrat;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 160px;
+    width: 400px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.homeknop {
+    color: #ffffff;
+    width: 63px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.learnknop {
+    color: #ffffff;
+    width: 59px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.aboutknop {
+    color: #ffffff;
+    width: 64px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.contactknop {
+    color: #ffffff;
+    width: 82px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.inlog-button {
+    display: flex;
+    background-color: #243241;
+    color: #ffffff;
+    width: 92px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+/* All footer items*/
+
+footer {
+    background-color: #121e28;
+    width: auto;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1140px;
+    height: 168px;
+}
+
+.footertext {
+    display: flex;
+    justify-content: center;
+    width: 298px;
+    height: 27px;
+    font-family: Montserrat;
+}
+
+.abouttext {
+    width: 71px;
+    height: 27px;
+    color: #ffffff;
+}
+
+.jobstext {
+    width: 53px;
+    height: 27px;
+    color: #ffffff;
+}
+
+.legaltext {
+    width: 62px;
+    height: 27px;
+    color: #FFC803;
+}
+
+.iconbox {
+    display: flex;
+    justify-content: space-around;
+    width: 284px;
+    height: 56;
+    margin-left: 120px;
+}
+
+/* Stars*/
+
+.star-1{
+margin-right: 150px;
+}
+
+.star-2{
+margin-bottom: 90px;
+margin-left: 110px;
+}
+
+.star-3{
+margin-right: 200px;
+margin-bottom: 100px;
+}
+
+.star-4{
+margin-left: 75px;
+margin-right: 160px;
+margin-bottom: 75px;
+}
+.star-5{
+margin-top: 140px;
+margin-right: 650px;
+}
+
+.star-6{
+margin-top: 140px;
+margin-right: 1300px;
+}
+
+.star-7{
+margin-top: 60px;
+margin-bottom: 80px;
+}
+
+/* website colours*/
+
+.pink {
+    color: #ffb4d3;
+    margin-left: 10px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.blue {
+    color: #4BE1F4;
+
+}
+
+.green {
+    color: #C8D316;
+}
+
+.purple-light {
+    color: #E2C1F9;
+}
+
+.purple {
+    color: #A36FFE;
+}
+
+.yellow-light {
+    color: #FFFBA8;
+}
+
+.yellow {
+    color: #FFC803;
+}
+
+.orange {
+    color: #FF9E9E;
+}
+
+.gray {
+    color: #3A3A3A;
+}
+
+.gray-more {
+    color: #505F6D;
+}
+
+black {
+    color: #000000;
+}
+
+.achtergrond {
+    background-color: #10151A;
+}
+
+.blue-background {
+    background-color: #4BE1F4;
+
+}
+
+.purple-light-background {
+    background-color: #E2C1F9;
+}
+
+.green-background {
+    background-color: #C8D316;
+}
+
+.yellow-background {
+    background-color: #FFC803;
+}
