@@ -85,6 +85,11 @@ nav {
     font-family: Montserrat;
 }
 
+.login-link-style{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* All footer items*/
 
 footer {
@@ -96,38 +101,30 @@ footer {
 
 }
 
-.footerbox {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 1140px;
-    height: 168px;
-}
-
-.footertext {
+.footer-box {
     display: flex;
     justify-content: center;
-    width: 298px;
+    align-items: center;
+    width: auto;
+    height: 168px;
+    margin-left: 400px;
+}
+
+.footer-text-box {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
     height: 27px;
     font-family: Montserrat;
+}   
+
+.footer-text{
+    width: auto;
+    height: 27px
 }
 
-.abouttext {
-    width: 71px;
-    height: 27px;
-    color: #ffffff;
-}
-
-.jobstext {
-    width: 53px;
-    height: 27px;
-    color: #ffffff;
-}
-
-.legaltext {
-    width: 62px;
-    height: 27px;
-    color: #FFC803;
+.footer-link{
+    text-decoration: none;
 }
 
 .iconbox {

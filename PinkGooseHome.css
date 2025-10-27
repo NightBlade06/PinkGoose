@@ -1,6 +1,6 @@
 /* module 1*/
 
-.intro-box {
+.module-1-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,7 +9,7 @@
     margin-top: 60px;
 }
 
-.intro-box-header {
+.module-1-text-box-1 {
     display: flex;
     justify-content: center;
     width: 526px;
@@ -21,7 +21,7 @@
     text-align: center;
 }
 
-.intro-box-paragraph {
+.module-1-text-box-2 {
     display: flex;
     justify-content: center;
     width: 649px;
@@ -33,7 +33,7 @@
     margin-top: -20px;
 }
 
-.intro-block-shape {
+.module-1-block-shape {
     display: flex;
     width: 214px;
     height: 68px;
@@ -46,6 +46,11 @@
     font-family: Montserrat;
 }
 
+.module-1-link-style{
+    text-decoration: none;
+    color: #000000;
+}
+
 .red-arrow-pos {
     display: flex;
     width: 21px;
@@ -55,7 +60,7 @@
 
 /* module 2*/
 
-.project-box {
+.module-2-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,7 +70,7 @@
     margin-top: 65px;
 }
 
-.project-box-header {
+.module-2-text-box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +96,6 @@
     justify-content: space-between;
     width: 510px;
     height: 56px;
-    
     margin-top: 24px;
 }
 
@@ -108,39 +112,20 @@
     font-weight: 600;
 }
 
-.dao-block-size-1 {
+.dao-block-size {
     display: flex;
-    width: 224px;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
-.dao-block-size-2 {
+.module-2-img-box {
     display: flex;
-    width: 184px;
-}
-
-.dao-block-size-3 {
-    display: flex;
-    width: 181px;
-}
-
-.dao-block-size-4 {
-    display: flex;
-    width: 228px;
-}
-
-.dao-block-size-5 {
-    display: flex;
-    width: 179px;
-}
-
-.dao-block-size-6 {
-    display: flex;
-    width: 153px;
-}
-
-.dao-block-size-7 {
-    display: flex;
-    width: 130px;
+    justify-content: center;
+    image-resolution: 1140px;
+    height: 493px;
+    align-self: flex-end;
+    margin-top: 44px;
 }
 
 .dao-project {
@@ -160,18 +145,9 @@
     margin-top: -30px;
 }
 
-.game-box-image {
-    display: flex;
-    justify-content: center;
-    image-resolution: 1140px;
-    height: 493px;
-    align-self: flex-end;
-    margin-top: 44px;
-}
-
 /* module-3*/
 
-.text-module {
+.module-3-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,7 +183,7 @@
 
 /* module-4 */
 
-.crypto-module {
+.module-4-box {
     display: flex;
     flex-direction: column;
     width: 1140px;
@@ -215,7 +191,7 @@
     margin-top: 200px;
 }
 
-.crypto-text-module {
+.module-4-text-box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,7 +225,7 @@
     border-width: 1px;
 }
 
-.crypto-text-box {
+.module-4-text-box-2 {
     display: flex;
     width: 1140px;
     height: 40px;
@@ -267,7 +243,7 @@
 
 /* module-5*/
 
-.help-module {
+.module-5-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -277,7 +253,7 @@
     margin-top: 200px;
 }
 
-.help-module-header {
+.module-5-text-box-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,7 +281,7 @@
     align-items: center;
 }
 
-.help-text-box {
+.module-5-text-box-2 {
     display: flex;
     flex-wrap: wrap;
     width: 740px;
@@ -462,6 +438,11 @@ input[type="email"]:focus {
     font-weight: 600;
     color: #8395A7;
 
+}
+
+.link-style{
+    text-decoration: none;
+    color: #8395A7;
 }
 
 .arrow-light-size {

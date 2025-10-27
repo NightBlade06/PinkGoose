@@ -152,7 +152,7 @@ border-radius: 10px;
     margin-left: 218px;
 }
 
-.email-box name-box{
+.email-box {
     display: flex;
     width: 506px;
     height: 68px;
@@ -229,13 +229,17 @@ input[type="email"]:focus {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 100px;
+    width: auto;
     height: 40px;
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 600;
     color: #8395A7;
+}
 
+.link-style{
+    text-decoration: none;
+    color: #8395A7;
 }
 
 .arrow-light-size {

@@ -1,0 +1,16 @@
+.module-page-404 {
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+}
+
+.module-page-404-text {
+    font-family: Lato;
+    size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.module-page-404-img {
+    margin-bottom: 100px;
+}
